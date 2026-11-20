@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abinaya Nedumaran | Full Stack Developer</title>
+<link href="./https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+  <!-- Scroll Progress Bar -->
+  <div id="scroll-progress"></div>
+
+  <!-- Custom Cursor Glow -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- Animated Particle Background -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Floating Ambient Blobs -->
+  <div class="ambient-blob blob-1"></div>
+  <div class="ambient-blob blob-2"></div>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">ABINAYA<span>.DEV</span></div>
+    <div class="nav-links">
+      <a href="./home">Home</a>
+      <a href="./about">About</a>
+      <a href="./skills">Skills</a>
+      <a href="./services">Services</a>
+      <a href="./projects">Projects</a>
+      <a href="./contact" class="nav-cta">Hire Me</a>
+    </div>
+  </nav>
+
+  <!-- 1. HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-left">
+      <div class="status-pill"><span class="pulse-dot"></span> Available for Full Stack Roles</div>
+      <h1 class="hero-title" id="animated-name">Abinaya Nedumaran</h1>
+      <h2 class="hero-role">I am a <span id="typewriter"></span><span class="caret">|</span></h2>
+      <p class="hero-desc">B.Tech AI & Data Science graduate crafting interactive, high-performance web applications with Python, Django, JavaScript & SQL.</p>
+      <div class="hero-btns">
+        <a href="./projects" class="btn-glow magnetic">Explore Projects ↗</a>
+        <a href="./contact" class="btn-outline magnetic">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="tilt-card" id="hero-card">
+        <div class="card-shine"></div>
+        <div class="orbit-ring"></div>
+        <img src="./images/WhatsApp_Image_2025-08-07_at_21.36.40_183cacc4-removebg-preview.png" alt="Abinaya Nedumaran" onerror="this.src='https://api.dicebear.com/9.x/avataaars/svg?seed=Abinaya&backgroundColor=b6e3f4'">
+        <div class="float-tag t1">🐍 Python</div>
+        <div class="float-tag t2">⚡ JavaScript</div>
+        <div class="float-tag t3">🎯 Django</div>
+        <div class="float-tag t4">🗄️ SQL</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. ABOUT SECTION -->
+  <section id="about" class="section">
+    <div class="container">
+      <span class="sec-tag reveal">01 // WHO I AM</span>
+      <h2 class="sec-title reveal">Turning Ideas Into <span class="grad">Interactive Reality</span></h2>
+      
+      <div class="about-grid">
+        <div class="glass-panel reveal slide-left">
+          <p>I’m <strong>Abinaya Nedumaran</strong>, a passionate B.Tech graduate in Artificial Intelligence and Data Science. I specialize in building responsive, visually engaging full-stack applications using Python, Django, HTML, CSS, JavaScript, and SQL.</p>
+          <div class="trait-tags">
+            <span>🚀 Quick Learner</span>
+            <span>🤝 Team Player</span>
+            <span>💡 Creative Problem Solver</span>
+          </div>
+        </div>
+
+        <div class="stats-grid reveal slide-right">
+          <div class="stat-box">
+            <h3 class="counter" data-target="5">0</h3>
+            <p>Live Projects</p>
+          </div>
+          <div class="stat-box">
+            <h3 class="counter" data-target="7">0</h3>
+            <p>Tech Stack</p>
+          </div>
+          <div class="stat-box">
+            <h3 class="counter" data-target="4">0</h3>
+            <p>Core Services</p>
+          </div>
+          <div class="stat-box">
+            <h3 class="counter" data-target="100">0</h3>
+            <p>% Passion</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. SKILLS SECTION  -->
+  <section id="skills" class="section">
+    <div class="container">
+      <span class="sec-tag reveal">02 // TECH STACK</span>
+      <h2 class="sec-title reveal">My Animated <span class="grad">Toolkit</span></h2>
+    </div>
+
+    <div class="marquee-wrapper reveal">
+      <div class="marquee-track track-left">
+        <div class="skill-card"><span>🌐</span> HTML5</div>
+        <div class="skill-card"><span>🎨</span> CSS3</div>
+        <div class="skill-card"><span>🅱️</span> Bootstrap</div>
+        <div class="skill-card"><span>⚡</span> JavaScript</div>
+        <div class="skill-card"><span>🐍</span> Python</div>
+        <div class="skill-card"><span>🎯</span> Django</div>
+        <div class="skill-card"><span>🗄️</span> SQL</div>
+      </div>
+    </div>
+
+    <div class="marquee-wrapper reveal">
+      <div class="marquee-track track-right">
+        <div class="skill-card alt"><span>🤖</span> AI & Data Science</div>
+        <div class="skill-card alt"><span>📱</span> Responsive UI</div>
+        <div class="skill-card alt"><span>🔗</span> REST APIs</div>
+        <div class="skill-card alt"><span>⚙️</span> Git & GitHub</div>
+        <div class="skill-card alt"><span>✨</span> Web Animations</div>
+        <div class="skill-card alt"><span>🛡️</span> Backend Logic</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. SERVICES SECTION -->
+  <section id="services" class="section">
+    <div class="container">
+      <span class="sec-tag reveal">03 // WHAT I DO</span>
+      <h2 class="sec-title reveal">Services & <span class="grad">Expertise</span></h2>
+      
+      <div class="services-list">
+        <div class="service-item reveal">
+          <div class="s-num">01</div>
+          <div class="s-info">
+            <h3>Full Stack Web Development</h3>
+            <p>End-to-end dynamic web applications powered by Python, Django, JavaScript, and SQL.</p>
+          </div>
+          <div class="s-arrow">↗</div>
+        </div>
+
+        <div class="service-item reveal">
+          <div class="s-num">02</div>
+          <div class="s-info">
+            <h3>Interactive Frontend Design</h3>
+            <p>Modern, animated, and responsive user interfaces built with clean HTML, CSS, and JS.</p>
+          </div>
+          <div class="s-arrow">↗</div>
+        </div>
+
+        <div class="service-item reveal">
+          <div class="s-num">03</div>
+          <div class="s-info">
+            <h3>Database Architecture</h3>
+            <p>Structured database design, queries, and backend integration using SQL and Python.</p>
+          </div>
+          <div class="s-arrow">↗</div>
+        </div>
+
+        <div class="service-item reveal">
+          <div class="s-num">04</div>
+          <div class="s-info">
+            <h3>Responsive Optimization</h3>
+            <p>Pixel-perfect layouts that adapt seamlessly across mobile, tablet, and desktop screens.</p>
+          </div>
+          <div class="s-arrow">↗</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. PROJECTS SECTION -->
+  <section id="projects" class="section">
+    <div class="container">
+      <span class="sec-tag reveal">04 // PORTFOLIO</span>
+      <h2 class="sec-title reveal">Featured <span class="grad">Projects</span></h2>
+
+      <div class="stack-container">
+        
+        <!-- Project 1 -->
+        <div class="project-stack-card" style="--idx:0; --accent:#ff3d8b;">
+          <div class="p-header">
+            <span class="p-num">01</span>
+            <div>
+              <h3>Azura - Online Shopping</h3>
+              <span class="p-tech">HTML · CSS</span>
+            </div>
+            <a href="./https://abinayan985-ops.github.io/Azura_shopping/" target="_blank" class="p-btn">LIVE DEMO ↗</a>
+          </div>
+          <div class="p-preview">
+            <div><img src="./images/azura page.png" alt="Azura 1" onerror="this.style.display='none'"></div>
+            <div><img src="./images/azura page 2.png" alt="Azura 2" onerror="this.style.display='none'"></div>
+            <div><img src="./images/azura page3.png" alt="Azura 3" onerror="this.style.display='none'"></div>
+          </div>
+          <p class="p-desc">Responsive e-commerce shopping platform featuring attractive product grids, modern UI layouts, and smooth transitions.</p>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-stack-card" style="--idx:1; --accent:#22d3ee;">
+          <div class="p-header">
+            <span class="p-num">02</span>
+            <div>
+              <h3>Jio Hotstar Clone</h3>
+              <span class="p-tech">HTML · CSS</span>
+            </div>
+            <a href="./https://abinayan985-ops.github.io/Jio-Hotstar-Clone/" target="_blank" class="p-btn">LIVE DEMO ↗</a>
+          </div>
+          <div class="p-preview">
+            <div><img src="./images/jio 1.png" alt="Jio 1" onerror="this.style.display='none'"></div>
+            <div><img src="./images/jio 2.png" alt="Jio 2" onerror="this.style.display='none'"></div>
+            <div><img src="./images/jio 3.png" alt="Jio 3" onerror="this.style.display='none'"></div>
+          </div>
+          <p class="p-desc">OTT streaming web interface inspired by JioHotstar with interactive movie/series cards and sleek visual effects.</p>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-stack-card" style="--idx:2; --accent:#8a4dff;">
+          <div class="p-header">
+            <span class="p-num">03</span>
+            <div>
+              <h3>Online Examination System</h3>
+              <span class="p-tech">Python · Django</span>
+            </div>
+            <a href="./contact" class="p-btn">REQUEST CODE ↗</a>
+          </div>
+          <div class="p-preview">
+            <div><img src="./images/exam_login.png" alt="Exam Login" onerror="this.style.display='none'"></div>
+            <div><img src="./images/exam_exam.png" alt="Exam Portal" onerror="this.style.display='none'"></div>
+            <div><img src="./images/exam_dashboard.png" alt="Exam Dashboard" onerror="this.style.display='none'"></div>
+          </div>
+          <p class="p-desc">Full-stack examination platform built with Django where students can take timed tests and view instant analytics.</p>
+        </div>
+
+
+          <!-- Project 4 -->
+        <div class="project-stack-card" style="--idx:0; --accent:#ff3d8b;">
+          <div class="p-header">
+            <span class="p-num">04</span>
+            <div>
+              <h3>BiteBliss- Online Food Delivery</h3>
+              <span class="p-tech">HTML · CSS .JavaScript</span>
+            </div>
+            <a href="./https://abinayan985-ops.github.io/Online_Food_Delivery/" target="_blank" class="p-btn">LIVE DEMO ↗</a>
+          </div>
+          <div class="p-preview">
+            <div><img src="./images/food1.png" alt="Azura 1" onerror="this.style.display='none'"></div>
+            <div><img src="./images/food2.png" alt="Azura 2" onerror="this.style.display='none'"></div>
+            <div><img src="./images/food3.png" alt="Azura 3" onerror="this.style.display='none'"></div>
+          </div>
+          <p class="p-desc">Responsive e-commerce shopping platform featuring attractive product grids, modern UI layouts, and smooth transitions.</p>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-stack-card" style="--idx:3; --accent:#fbbf24;">
+          <div class="p-header">
+            <span class="p-num">05</span>
+            <div>
+              <h3>Railway Management System</h3>
+              <span class="p-tech">SQL · Database</span>
+            </div>
+            <a href="./contact" class="p-btn">VIEW DETAILS ↗</a>
+          </div>
+          <div class="p-preview">
+            <div><img src="./images/portfolio_v2_page1.png" alt="Railway 1" onerror="this.style.display='none'"></div>
+            <div><img src="./images/portfolio_v2_page2.png" alt="Railway 2" onerror="this.style.display='none'"></div>
+            <div><img src="./images/portfolio_v2_page3.png" alt="Railway 3" onerror="this.style.display='none'"></div>
+          </div>
+          <p class="p-desc">Comprehensive database system designed to manage trains, schedules, seat availability, and passenger bookings.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. CONTACT SECTION -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-card reveal">
+        <span class="sec-tag">05 // CONNECT</span>
+        <h2 class="sec-title">Let's Create Something <span class="grad">Amazing</span></h2>
+        <p class="contact-sub">abinayan985@gmail.com · Chennai, Tamil Nadu</p>
+
+        <form id="contact-form">
+          <div class="input-row">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+          </div>
+          <textarea rows="4" placeholder="Tell me about your project or opportunity..." required></textarea>
+          <button type="submit" class="btn-glow magnetic">Send Message 🚀</button>
+          <p id="form-msg"></p>
+        </form>
+
+        <div class="social-row">
+          <a href="./https://github.com/abinayan985-ops" target="_blank" class="soc-btn">GitHub ↗</a>
+          <a href="./https://www.linkedin.com/in/abinaya-nedumaran-2b2289389" target="_blank" class="soc-btn">LinkedIn ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>© 2026 Abinaya Nedumaran. Built with Pure Animation & Passion 💜</footer>
+
+  <script src="./index.js"></script>
+</body>
+</html>
